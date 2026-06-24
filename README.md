@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SRMAudit — Security Risk Management & Audit Platform
 
-## Getting Started
+A full-stack GRC (Governance, Risk & Compliance) web application for conducting structured cybersecurity audits based on the NIST Cybersecurity Framework (NIST CSF).
 
-First, run the development server:
+## 🔍 Overview
+
+SRMAudit helps organizations perform end-to-end security audits — from asset discovery and vulnerability mapping to compliance scoring and automated report generation.
+
+## ✨ Features
+
+- **Dashboard** — Real-time audit progress, risk matrix (5×5), and NIST CSF compliance overview
+- **Organization Profile** — Define audit scope and auto-calculate exposure level
+- **Asset Inventory** — Register and score assets by CIA (Confidentiality, Integrity, Availability) value
+- **Threats & Vulnerabilities** — OWASP-based vulnerability identification and risk mapping
+- **Audit Checklist** — 22 NIST CSF controls across Identify, Protect, Detect, Respond, Recover
+- **Evidence Collection** — Upload and manage audit evidence files (screenshots, policy docs, config exports)
+- **Audit Findings** — Track findings by severity (Critical/High/Medium/Low) with assignee and status
+- **Compliance Score** — Auto-calculated compliance percentage per CSF function
+- **AI Audit Assistant** — AI-powered advisor for audit controls, vuln explanation, and report writing
+- **Report Generator** — Generate and export professional Security Audit Reports as PDF
+- **User Management** — Role-based access control (Admin, Auditor, Auditee)
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Next.js, TypeScript, Tailwind CSS
+- **Framework:** React
+
+## 🚀 Getting Started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📸 Screenshots
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![Dashboard](./public/screenshots/dashboard.png)
 
-## Learn More
+## 🔐 Security Note
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project uses `.env.local` for environment variables. Never commit this file.
