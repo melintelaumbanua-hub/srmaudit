@@ -36,7 +36,17 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 📸 Screenshots
 
-![Dashboard](./public/screenshots/dashboard.png)
+## 📸 Screenshots
+
+![Dashboard](./public/screenshots/srm-dashboard.png)
+![Audit Findings](./public/screenshots/srm-audit.png)
+![Asset Inventory](./public/screenshots/srm-Asset.png)
+![Compliance Score](./public/screenshots/srm-compliance.png)
+![Threats & Vulnerabilities](./public/screenshots/srm-Threats.png)
+![AI Assistant](./public/screenshots/srm-AI.png)
+![Evidence Collection](./public/screenshots/srm-evidence.png)
+![Report Generator](./public/screenshots/srm-report1.png)
+![User Management](./public/screenshots/srm-user.png)
 
 ## 🔐 Security Note
 
