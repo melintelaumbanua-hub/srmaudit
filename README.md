@@ -47,7 +47,3 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 ![Evidence Collection](./public/screenshots/srm-evidence.jpg)
 ![Report Generator](./public/screenshots/srm-report1.jpg)
 ![User Management](./public/screenshots/srm-user.jpg)
-
-## 🔐 Security Note
-
-This project uses `.env.local` for environment variables. Never commit this file.
